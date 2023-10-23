@@ -8,7 +8,7 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/psyinf/cmake_min_consumer_lib.git
   GIT_TAG        HEAD
   
-  #SYSTEM
+  SYSTEM
 )
 FetchContent_MakeAvailable(minConsumerLib)
 
